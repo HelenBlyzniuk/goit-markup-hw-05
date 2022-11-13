@@ -117,6 +117,19 @@ nav {
   letter-spacing: 0.02em;
 }
 
+.active {
+  color: var(--active-element-color);
+}
+
+.active::after{
+  content:'';
+  display:block;
+  width:48px;
+  border-bottom:2px solid #2196F3;
+  
+  
+  
+}
 
 .container-header{
   display:flex;
@@ -163,9 +176,7 @@ header {
   text-transform: uppercase;
 }
 
-.active {
-  color: var(--active-element-color);
-}
+
 
 h2,
 h3 {
@@ -299,6 +310,36 @@ footer {
 .pic{
   
   display:block;
+}
+
+.about-overlay{
+  
+ position:absolute;
+ bottom:0;
+ left:0;
+
+  width: 370px;
+  height: 70px;
+  background-color: #2F303A;
+  opacity:0.8;
+  margin: 0;
+
+   
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    padding-top: 27px;
+  
+    color:var(--additional-color);
+  
+
+}
+
+.about-overlay-wrapper{
+  position:relative;
 }
 
 
