@@ -151,7 +151,20 @@ header {
   border-bottom: 1px solid #ECECEC;
 
 }
+/*---------------backdrop------------*/
 
+.close{
+  display:block;
+  border:none;
+  
+    stroke: 1px solid rgba(0, 0, 0, 0.1);
+
+}
+
+.close-img{
+  fill: var(--title-color);
+    
+}
 /*---------------hero------------*/
 
 .hello {
@@ -745,7 +758,9 @@ address {
 }
 
 .work-overlay-text:hover,
-.work-overlay-text:focus {}
+.work-overlay-text:focus {
+  opacity:1;
+}
 
 .work-overlay-text {
   position: absolute;
@@ -771,4 +786,5 @@ address {
 
 .work-overlay {
   position: relative;
+  
 }
