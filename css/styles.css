@@ -162,11 +162,12 @@ header {
   padding:0;
   border-radius: 50%;
   border: 1px solid rgba(0, 0, 0, 0.1);
-  
+  fill: #2f303a;
+  background-color: #F5F4FA;
 }
 
 .close-img{
-  fill: #2f303a;
+  
     
 }
 /*---------------hero------------*/
@@ -427,8 +428,7 @@ footer {
   background-color: var(--additional-color);
 }
 
-.person:hover,
-.person:focus {}
+
 
 .person:not(:last-of-type) {
   margin-right: 30px;
