@@ -169,6 +169,7 @@ header {
   height:100%;
 
   background-color:rgba(0, 0, 0, 0.2); 
+  
 
 }
 
@@ -188,7 +189,9 @@ header {
   top:50%;
   left:50%;
   transform:translate(-50%, -50%);
-}
+  
+  }
+
 
 .close{
   display:block;
@@ -208,11 +211,13 @@ header {
   display: block;
   align-items: center;
   justify-content: center;
+  
 }
 
 .backdrop.is-hidden{
   opacity: 0;
   pointer-events: none;
+  
 }
 
 /*---------------hero------------*/
@@ -279,6 +284,8 @@ footer {
 
   text-align: center;
   letter-spacing: 0.06em;
+ 
+  
 }
 
 
