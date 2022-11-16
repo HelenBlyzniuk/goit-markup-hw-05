@@ -100,7 +100,7 @@ a {
 .contact {
   display: inline-block;
   fill: var(--main-text-color);
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+  transition:color 250ms cubic-bezier(0.4, 0, 0.2, 1),
   fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -126,7 +126,10 @@ nav {
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  transition: color 5s cubic-bezier(0.4, 0, 0.2, 1);
+  
+}
+.nav{
+transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .active {
@@ -171,7 +174,7 @@ header {
 
   background-color:rgba(0, 0, 0, 0.2); 
   opacity:1;
-  transition: opacity 1000ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition:opacity 1000ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
 
@@ -192,7 +195,7 @@ header {
   left:50%;
   opacity:1;
   transform:translate(-50%, -50%) scaleX(1);
-  transform-origin: top left;
+ 
   transition:scale 1s cubic-bezier(0.4, 0, 0.2, 1),
   opacity 1s cubic-bezier(0.4, 0, 0.2, 1);
   
@@ -844,6 +847,7 @@ box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1p
   position: absolute;
   top: 0;
   left: 0;
+  
   transform: translateY(100%);
   opacity:0;
   transition:transform 250ms cubic-bezier(0.4, 0, 0.2, 1),
@@ -871,5 +875,6 @@ box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1p
 
 .work-overlay {
   position: relative;
+  overflow: hidden;
   
 }
